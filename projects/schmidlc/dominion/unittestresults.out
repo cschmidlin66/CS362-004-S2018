@@ -1,0 +1,266 @@
+
+-------------------------------------------------------------------------------------------------------------
+UNIT TEST 1 - initializeGame
+initializeGame: PASS number of players is correct!
+initializeGame: PASS supply count for 'curse' is correct!
+initializeGame: PASS estate amount is correct!
+initializeGame: PASS duchy amount is correct!
+initializeGame: PASS amount is correct!
+initializeGame: PASS copper amount is correct!
+initializeGame: PASS silver amount is correct!
+initializeGame: PASS gold amount is correct!
+initializeGame: PASS outpostPlayed amount is correct!
+initializeGame: PASS game is in the correct phase!
+initializeGame: PASS only 1 action is available on first turn!
+initializeGame: PASS the number of buys is 1!
+initializeGame: PASS the number of cards played is 0!
+initializeGame: PASS the turn counter is set to 0!
+initializeGame: PASS the hand count at the start of the turn is 5!
+
+File 'dominion.c'
+Lines executed:16.52% of 563
+Branches executed:15.83% of 417
+Taken at least once:12.71% of 417
+Calls executed:8.42% of 95
+Creating 'dominion.c.gcov'
+
+
+-------------------------------------------------------------------------------------------------------------
+UNIT TEST 2 - getCost 
+getCost: PASS - Card: curse returned the correct cost! Returned: 0 Correct 0 
+getCost: PASS - Card: estate returned the correct cost! Returned: 2 Correct 2 
+getCost: PASS - Card: duchy returned the correct cost! Returned: 5 Correct 5 
+getCost: PASS - Card: province returned the correct cost! Returned: 8 Correct 8 
+getCost: PASS - Card: copper returned the correct cost! Returned: 0 Correct 0 
+getCost: PASS - Card: silver returned the correct cost! Returned: 3 Correct 3 
+getCost: PASS - Card: gold returned the correct cost! Returned: 6 Correct 6 
+getCost: PASS - Card: adventurer returned the correct cost! Returned: 6 Correct 6 
+getCost: PASS - Card: council_room returned the correct cost! Returned: 5 Correct 5 
+getCost: PASS - Card: feast returned the correct cost! Returned: 4 Correct 4 
+getCost: PASS - Card: gardens returned the correct cost! Returned: 4 Correct 4 
+getCost: PASS - Card: mine returned the correct cost! Returned: 5 Correct 5 
+getCost: PASS - Card: remodel returned the correct cost! Returned: 4 Correct 4 
+getCost: PASS - Card: smithy returned the correct cost! Returned: 4 Correct 4 
+getCost: PASS - Card: village returned the correct cost! Returned: 3 Correct 3 
+getCost: PASS - Card: baron returned the correct cost! Returned: 4 Correct 4 
+getCost: PASS - Card: great_hall returned the correct cost! Returned: 3 Correct 3 
+getCost: PASS - Card: minion returned the correct cost! Returned: 5 Correct 5 
+getCost: PASS - Card: steward returned the correct cost! Returned: 3 Correct 3 
+getCost: PASS - Card: tribute returned the correct cost! Returned: 5 Correct 5 
+getCost: PASS - Card: ambassador returned the correct cost! Returned: 3 Correct 3 
+getCost: PASS - Card: cutpurse returned the correct cost! Returned: 4 Correct 4 
+getCost: PASS - Card: embargo returned the correct cost! Returned: 2 Correct 2 
+getCost: PASS - Card: outpost returned the correct cost! Returned: 5 Correct 5 
+getCost: PASS - Card: salvager returned the correct cost! Returned: 4 Correct 4 
+getCost: PASS - Card: sea_hag returned the correct cost! Returned: 4 Correct 4 
+
+File 'dominion.c'
+Lines executed:4.97% of 563
+Branches executed:6.71% of 417
+Taken at least once:6.24% of 417
+Calls executed:0.00% of 95
+Creating 'dominion.c.gcov'
+
+
+-------------------------------------------------------------------------------------------------------------
+UNIT TEST 3 - gainCard
+Verify a new card is added to the deck
+Current number of Copper in deck = 7
+Adding 1 copper card to the deck
+Current number of Copper in deck = 8
+PASS copper card was added to the deck! Current: 8 Correct: 8 
+Verify the new copper card was not added to the hand
+PASS the new copper card was not added to hand! Current: 5 Correct: 5 
+
+Player Current Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+
+Verify a new card is added to the hand by adding the Adventurer card
+PASS new card added to hand and the number of cards in hand is correct! Current: 6 Correct: 6 
+Verfiy that it was the Adventurer card that was added to the hand
+PASS the Adventurer card was added to the hand!
+
+Player New Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Adventurer
+
+Verify a card not set in the kingdom cards can not be added to the players cards
+PASS new card was not added to hand! Current: 6 Correct: 6 
+
+File 'dominion.c'
+Lines executed:20.78% of 563
+Branches executed:19.66% of 417
+Taken at least once:16.07% of 417
+Calls executed:10.53% of 95
+Creating 'dominion.c.gcov'
+
+
+-------------------------------------------------------------------------------------------------------------
+UNIT TEST 4 - endTurn
+FIRST TURN
+PASS first turn is with the correct player! Current: Player 0 Correct: Player 0 
+SECOND TURN
+PASS second turn is with the correct player! Current: Player 1 Correct: Player 1 
+THIRD TURN
+PASS third turn is with the correct player! Current: Player 2 Correct: Player 2 
+FOURTH TURN
+PASS fourth turn is with the correct player! Current: Player 0 Correct: Player 0 
+
+File 'dominion.c'
+Lines executed:19.89% of 563
+Branches executed:17.75% of 417
+Taken at least once:14.39% of 417
+Calls executed:10.53% of 95
+Creating 'dominion.c.gcov'
+
+
+-------------------------------------------------------------------------------------------------------------
+CARD TEST 1 - Smithy Card Effect 
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Smithy
+
+FAIL the current player did not gain 3 more cards! Current: 7 Correct: 8 
+Verify the Smithy card is discarded from the hand
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Copper
+7. Copper
+
+PASS the Smithy card was discarded from the hand!
+
+File 'dominion.c'
+Lines executed:25.22% of 563
+Branches executed:27.10% of 417
+Taken at least once:16.31% of 417
+Calls executed:17.89% of 95
+Creating 'dominion.c.gcov'
+
+
+-------------------------------------------------------------------------------------------------------------
+CARD TEST 2 - Adventurer Card Effect
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Adventurer
+
+PASS player has the correct number of cards in hand! Current: 8 Correct: 8 
+PASS player has the correct number of treasure cards in hand! Current: 6 Correct: 6 
+Verify the Adventurer card is discarded from the hand
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Adventurer
+7. Gold
+8. Gold
+
+FAIL the Adventurer card was not discarded from the hand!
+
+File 'dominion.c'
+Lines executed:24.51% of 563
+Branches executed:28.06% of 417
+Taken at least once:17.27% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+
+-------------------------------------------------------------------------------------------------------------
+CARD TEST 3 - Council Room
+Verify current player draws 4 more cards to their hand
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Council Room
+
+PASS the current play added four more cards to their hand! Current: 9 Correct: 9 
+Verify current player gains an extra buy action 
+FAIL current player did not receive one more buy action! 
+Verify other player draw one card.
+PASS the other player added one card to their hand! 
+Verify the Council Room card is discarded from the hand
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Copper
+7. Gold
+8. Gold
+9. Gold
+
+PASS the Council Room card was discarded from the hand!
+
+File 'dominion.c'
+Lines executed:26.47% of 563
+Branches executed:28.06% of 417
+Taken at least once:17.75% of 417
+Calls executed:18.95% of 95
+Creating 'dominion.c.gcov'
+
+
+-------------------------------------------------------------------------------------------------------------
+CARD TEST 4 - Great Hall
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Great Hall
+
+Verify that one card is added to the players hand
+PASS one card was added to the players hand!
+Verify that the player receives one extra action
+PASS player received an extra action!
+Verify the Great Hall card is discarded from the hand
+
+Player Hand
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Gold
+
+PASS the Great Hall card was discarded from the hand!
+
+File 'dominion.c'
+Lines executed:25.75% of 563
+Branches executed:26.62% of 417
+Taken at least once:16.55% of 417
+Calls executed:17.89% of 95
+Creating 'dominion.c.gcov'
+
