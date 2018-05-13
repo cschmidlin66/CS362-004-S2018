@@ -4,19 +4,19 @@ RANDOM CARD TEST - Council Room
 
 
 Player 0 Starting Hand 
-1. Copper
-2. Copper
+1. Estate
+2. Estate
 3. Copper
 4. Copper
-5. Estate
+5. Copper
 
 
 Player 1 Starting Hand 
-1. Copper
+1. Estate
 2. Estate
 3. Copper
-4. Estate
-5. Estate
+4. Copper
+5. Copper
 
 Giving random player the Council Room card
 
@@ -24,7 +24,7 @@ Player 0 received the Council Room card
 Player 0 will now play the Council Room card
 
 
-PASS Player 0 added four more cards to their hand! Current: 9 Correct: 8 
+PASS Player 0 added four more cards to their hand! Current: 9 Correct: 9 
 Verify Player 0 gains an extra buy action 
 FAIL Player 0 did not receive one more buy action! 
 Verify all other players draw one card.
@@ -33,11 +33,77 @@ Verify the Council Room card is discarded from Player 0's hand
 
 
 Player 0 Current Hand 
+1. Estate
+2. Estate
+3. Copper
+4. Copper
+5. Copper
+6. Copper
+7. Copper
+8. Copper
+9. Copper
+
+
+Player 1 Current Hand 
+1. Estate
+2. Estate
+3. Copper
+4. Copper
+5. Copper
+6. Copper
+
+
+PASS the Council Room card was discarded from player 0's hand!
+
+
+-------------------------------------------------------------------------------------------------------------
+RANDOM CARD TEST - Council Room
+
+
+Player 0 Starting Hand 
 1. Copper
 2. Copper
 3. Copper
+4. Estate
+5. Copper
+
+
+Player 1 Starting Hand 
+1. Estate
+2. Estate
+3. Copper
 4. Copper
-5. Estate
+5. Copper
+
+
+Player 2 Starting Hand 
+1. Estate
+2. Estate
+3. Estate
+4. Copper
+5. Copper
+
+Giving random player the Council Room card
+
+Player 0 received the Council Room card
+Player 0 will now play the Council Room card
+
+
+PASS Player 0 added four more cards to their hand! Current: 9 Correct: 9 
+Verify Player 0 gains an extra buy action 
+FAIL Player 0 did not receive one more buy action! 
+Verify all other players draw one card.
+PASS Player 1 added one card to their hand! 
+PASS Player 2 added one card to their hand! 
+Verify the Council Room card is discarded from Player 0's hand
+
+
+Player 0 Current Hand 
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Copper
 6. Copper
 7. Copper
 8. Copper
@@ -45,11 +111,20 @@ Player 0 Current Hand
 
 
 Player 1 Current Hand 
-1. Copper
+1. Estate
 2. Estate
 3. Copper
-4. Estate
-5. Estate
+4. Copper
+5. Copper
+6. Copper
+
+
+Player 2 Current Hand 
+1. Estate
+2. Estate
+3. Estate
+4. Copper
+5. Copper
 6. Copper
 
 
@@ -62,15 +137,15 @@ RANDOM CARD TEST - Council Room
 
 Player 0 Starting Hand 
 1. Estate
-2. Copper
-3. Estate
+2. Estate
+3. Copper
 4. Copper
 5. Copper
 
 
 Player 1 Starting Hand 
 1. Estate
-2. Copper
+2. Estate
 3. Copper
 4. Copper
 5. Copper
@@ -79,16 +154,16 @@ Player 1 Starting Hand
 Player 2 Starting Hand 
 1. Copper
 2. Copper
-3. Copper
+3. Estate
 4. Copper
-5. Copper
+5. Estate
 
 
 Player 3 Starting Hand 
-1. Copper
+1. Estate
 2. Estate
 3. Copper
-4. Estate
+4. Copper
 5. Estate
 
 Giving random player the Council Room card
@@ -97,7 +172,7 @@ Player 3 received the Council Room card
 Player 3 will now play the Council Room card
 
 
-PASS Player 3 added four more cards to their hand! Current: 9 Correct: 8 
+PASS Player 3 added four more cards to their hand! Current: 9 Correct: 9 
 Verify Player 3 gains an extra buy action 
 FAIL Player 3 did not receive one more buy action! 
 Verify all other players draw one card.
@@ -109,8 +184,8 @@ Verify the Council Room card is discarded from Player 3's hand
 
 Player 0 Current Hand 
 1. Estate
-2. Copper
-3. Estate
+2. Estate
+3. Copper
 4. Copper
 5. Copper
 6. Copper
@@ -118,27 +193,27 @@ Player 0 Current Hand
 
 Player 1 Current Hand 
 1. Estate
-2. Copper
+2. Estate
 3. Copper
 4. Copper
 5. Copper
-6. Estate
+6. Copper
 
 
 Player 2 Current Hand 
 1. Copper
 2. Copper
-3. Copper
+3. Estate
 4. Copper
-5. Copper
-6. Estate
+5. Estate
+6. Copper
 
 
 Player 3 Current Hand 
-1. Copper
+1. Estate
 2. Estate
 3. Copper
-4. Estate
+4. Copper
 5. Estate
 6. Copper
 7. Copper
@@ -154,86 +229,11 @@ RANDOM CARD TEST - Council Room
 
 
 Player 0 Starting Hand 
-1. Estate
-2. Copper
-3. Copper
-4. Copper
-5. Estate
-
-
-Player 1 Starting Hand 
-1. Estate
-2. Estate
-3. Copper
-4. Copper
-5. Copper
-
-
-Player 2 Starting Hand 
-1. Estate
-2. Copper
-3. Copper
-4. Copper
-5. Copper
-
-Giving random player the Council Room card
-
-Player 2 received the Council Room card
-Player 2 will now play the Council Room card
-
-
-PASS Player 2 added four more cards to their hand! Current: 9 Correct: 8 
-Verify Player 2 gains an extra buy action 
-FAIL Player 2 did not receive one more buy action! 
-Verify all other players draw one card.
-PASS Player 0 added one card to their hand! 
-PASS Player 1 added one card to their hand! 
-Verify the Council Room card is discarded from Player 2's hand
-
-
-Player 0 Current Hand 
-1. Estate
-2. Copper
-3. Copper
-4. Copper
-5. Estate
-6. Copper
-
-
-Player 1 Current Hand 
-1. Estate
-2. Estate
-3. Copper
-4. Copper
-5. Copper
-6. Copper
-
-
-Player 2 Current Hand 
-1. Estate
-2. Copper
-3. Copper
-4. Copper
-5. Copper
-6. Copper
-7. Copper
-8. Estate
-9. Copper
-
-
-PASS the Council Room card was discarded from player 2's hand!
-
-
--------------------------------------------------------------------------------------------------------------
-RANDOM CARD TEST - Council Room
-
-
-Player 0 Starting Hand 
 1. Copper
-2. Copper
+2. Estate
 3. Copper
 4. Copper
-5. Estate
+5. Copper
 
 
 Player 1 Starting Hand 
@@ -247,8 +247,75 @@ Player 1 Starting Hand
 Player 2 Starting Hand 
 1. Copper
 2. Copper
+3. Estate
+4. Copper
+5. Copper
+
+Giving random player the Council Room card
+
+Player 0 received the Council Room card
+Player 0 will now play the Council Room card
+
+
+PASS Player 0 added four more cards to their hand! Current: 9 Correct: 9 
+Verify Player 0 gains an extra buy action 
+FAIL Player 0 did not receive one more buy action! 
+Verify all other players draw one card.
+PASS Player 1 added one card to their hand! 
+PASS Player 2 added one card to their hand! 
+Verify the Council Room card is discarded from Player 0's hand
+
+
+Player 0 Current Hand 
+1. Copper
+2. Estate
 3. Copper
 4. Copper
+5. Copper
+6. Copper
+7. Copper
+8. Copper
+9. Estate
+
+
+Player 1 Current Hand 
+1. Estate
+2. Copper
+3. Copper
+4. Estate
+5. Copper
+6. Copper
+
+
+Player 2 Current Hand 
+1. Copper
+2. Copper
+3. Estate
+4. Copper
+5. Copper
+6. Copper
+
+
+PASS the Council Room card was discarded from player 0's hand!
+
+
+-------------------------------------------------------------------------------------------------------------
+RANDOM CARD TEST - Council Room
+
+
+Player 0 Starting Hand 
+1. Copper
+2. Copper
+3. Copper
+4. Estate
+5. Estate
+
+
+Player 1 Starting Hand 
+1. Copper
+2. Estate
+3. Copper
+4. Estate
 5. Estate
 
 Giving random player the Council Room card
@@ -257,12 +324,11 @@ Player 1 received the Council Room card
 Player 1 will now play the Council Room card
 
 
-PASS Player 1 added four more cards to their hand! Current: 9 Correct: 8 
+PASS Player 1 added four more cards to their hand! Current: 9 Correct: 9 
 Verify Player 1 gains an extra buy action 
 FAIL Player 1 did not receive one more buy action! 
 Verify all other players draw one card.
 PASS Player 0 added one card to their hand! 
-PASS Player 2 added one card to their hand! 
 Verify the Council Room card is discarded from Player 1's hand
 
 
@@ -270,126 +336,24 @@ Player 0 Current Hand
 1. Copper
 2. Copper
 3. Copper
-4. Copper
+4. Estate
 5. Estate
 6. Copper
 
 
 Player 1 Current Hand 
-1. Estate
-2. Copper
+1. Copper
+2. Estate
 3. Copper
 4. Estate
-5. Copper
+5. Estate
 6. Copper
 7. Copper
 8. Copper
 9. Copper
-
-
-Player 2 Current Hand 
-1. Copper
-2. Copper
-3. Copper
-4. Copper
-5. Estate
-6. Copper
 
 
 PASS the Council Room card was discarded from player 1's hand!
-
-
--------------------------------------------------------------------------------------------------------------
-RANDOM CARD TEST - Council Room
-
-
-Player 0 Starting Hand 
-1. Estate
-2. Copper
-3. Estate
-4. Copper
-5. Copper
-
-
-Player 1 Starting Hand 
-1. Estate
-2. Estate
-3. Copper
-4. Copper
-5. Copper
-
-
-Player 2 Starting Hand 
-1. Estate
-2. Copper
-3. Copper
-4. Estate
-5. Copper
-
-
-Player 3 Starting Hand 
-1. Copper
-2. Copper
-3. Copper
-4. Estate
-5. Copper
-
-Giving random player the Council Room card
-
-Player 2 received the Council Room card
-Player 2 will now play the Council Room card
-
-
-PASS Player 2 added four more cards to their hand! Current: 9 Correct: 8 
-Verify Player 2 gains an extra buy action 
-FAIL Player 2 did not receive one more buy action! 
-Verify all other players draw one card.
-PASS Player 0 added one card to their hand! 
-PASS Player 1 added one card to their hand! 
-PASS Player 3 added one card to their hand! 
-Verify the Council Room card is discarded from Player 2's hand
-
-
-Player 0 Current Hand 
-1. Estate
-2. Copper
-3. Estate
-4. Copper
-5. Copper
-6. Copper
-
-
-Player 1 Current Hand 
-1. Estate
-2. Estate
-3. Copper
-4. Copper
-5. Copper
-6. Copper
-
-
-Player 2 Current Hand 
-1. Estate
-2. Copper
-3. Copper
-4. Estate
-5. Copper
-6. Estate
-7. Copper
-8. Copper
-9. Copper
-
-
-Player 3 Current Hand 
-1. Copper
-2. Copper
-3. Copper
-4. Estate
-5. Copper
-6. Estate
-
-
-PASS the Council Room card was discarded from player 2's hand!
 
 Function 'updateCoins'
 Lines executed:81.82% of 11
